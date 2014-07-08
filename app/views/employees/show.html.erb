@@ -1,0 +1,55 @@
+<h1>Employee Details</h1>
+
+<p>
+  First Name:
+
+  <%=@employee.first_name%>
+</p>
+<p>
+  Last Name:
+  <%=@employee.last_name%>
+</p>
+<p>
+  Email:
+  <%=@employee.email%>
+</p>
+<p>
+  Password:
+  <%=@employee.password%>
+</p>
+<p>
+  onfirm Password:
+  <%=@employee.confirm_password%>
+</p>
+<p>
+  Address:
+  <%=@employee.address%>
+</p>
+<p>
+  Phone Number:
+  <%=@employee.phone_number%>
+</p>
+<p>
+  Pincode:
+  <%=@employee.pincode%>
+</p><br>
+
+
+ 
+<%= link_to 'Back', employees_path %>
+<%= link_to 'Edit', edit_employee_path(@employee)%>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
